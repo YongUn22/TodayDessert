@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'UhBeemysen';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeemysen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+*{
+    box-sizing: border-box;
+    font-family: 'UhBeemysen';
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 80%;
+    margin: 0;
+    margin-left: 10%;
+
+}
+.content .mb-4{
+    text-align: center;
+
+}
+.content .list{
+
+    text-align: center;
+    position: relative;
+}
+.content .list div{
+    display: inline-block;
+    text-align: center;
+}
+.content .order-date{
+
+    width: 29%;
+
+    text-align: center;
+
+    top: 30%;
+    transform: translate(0, -80%)
+}
+.content .order-detail{
+
+    width: 70%;
+    text-align: center;
+}
+.content .order-detail img{
+    height: 200px;
+    width: 200px;
+
+}
+.content .order-detail .detail{
+
+    top: 30%;
+    transform: translate(0, -530%)
+}
+.content .page{
+    height: 60px;
+}
+.content ul{
+    padding-left: 430px;
+    list-style: none;
+    text-align: center;
+}
+.content ul li{
+    float: left;
+    margin: 0 10px;
+}
+.content ul li a{
+    color: black;
+    text-decoration: none;
+}

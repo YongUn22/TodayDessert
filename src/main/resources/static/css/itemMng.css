@@ -1,0 +1,63 @@
+@font-face {
+font-family: 'UhBeemysen';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeemysen.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'UhBeemysen';
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 80%;
+    margin: 0;
+    margin-left: 10%;
+    border: 1px solid black;
+}
+.content .table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+.content .table th, td{
+    border: 1px solid black;
+}
+.content .table th{
+    padding: 10px 0;
+}
+.content .table td{
+    text-align: center;
+    padding: 10px 0;
+}
+.content .table td a{
+    color: black;
+    text-decoration: none;
+}
+.content ul{
+    list-style: none;
+    text-align: center;
+    border: 1px solid black;
+}
+.content ul li{
+    float: left;
+    margin: 10px 10px;
+}
+.content ul li a{
+    color: black;
+    text-decoration: none;
+}
+.content ul li a:hover{
+    cursor: pointer;
+}
+.content .form-inline-justify-content-center{
+    border: 1px solid black;
+    margin-top: 50px;
+    text-align: center;
+}
+.content .form-inline-justify-content-center select{
+    margin: 10px 10px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security"
+      layout:decorate="~{layouts/layout1}">
+<head>
+    <meta charset="UTF-8">
+    <title>MY PAGE</title>
+</head>
+<th:block layout:fragment="css">
+    <link rel="stylesheet" type="text/css" href="/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="/css/login.css">
+</th:block>
+<body>
+<input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}">
+    <div layout:fragment="content" class="content">
+        <div class="hello">
+            <span sec:authentication="name"></span>님, 반가워요
+        </div>
+        <div class="button">
+            <ul>
+                <li>
+                    <a href="/">회원 정보 수정</a>
+                </li>
+                <li sec:authorize="isAuthenticated()">
+                    <a href="/members/logout">로그아웃</a>
+                </li>
+            </ul>
+        </div>
+        <div class="shopping-info">
+            <div class="shopping-info-title">
+                <h3>쇼핑 정보</h3>
+            </div>
+            <div class="shopping-info-link">
+                <ul>
+                    <li>
+                        <a href="/">구매 내역</a>
+                    </li>
+                    <li>
+                        <a href="/"> 장바구니</a>
+                    </li>
+                    <li>
+                        <a href="/">나의 리뷰</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="voc">
+            <div class="voc-title">
+                <h3>고객 센터</h3>
+            </div>
+            <div class="voc-link">
+                <ul>
+                    <li>
+                        <a href="/">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="/">1 : 1 문의</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="product" sec:authorize="hasAnyAuthority('ROLE_STORE')">
+            <div class="product-title">
+                <h3>상품 등록</h3>
+            </div>
+            <div class="product-link">
+                <ul>
+                    <li>
+                        <a href="/">상품 등록</a>
+                    </li>
+                    <li>
+                        <a href="/">판매글 수정</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
