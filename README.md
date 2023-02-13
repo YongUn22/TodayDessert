@@ -12,4 +12,6 @@ jpa를 사용한 게시판 형식의 사이트
 ![flow](https://user-images.githubusercontent.com/110376717/218383973-a4ff8224-398f-48fe-9fde-89d87916d963.PNG)
 
 # ER다이어그램
+![er](https://user-images.githubusercontent.com/110376717/218384118-40b73e16-386e-4fb6-b6df-c0337f045edd.PNG)
 
+# 결과
