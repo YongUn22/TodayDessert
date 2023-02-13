@@ -9,7 +9,7 @@ jpa를 사용한 게시판 형식의 사이트
 ![deve](https://user-images.githubusercontent.com/110376717/218383021-6e8f224a-4618-4f60-8caf-885a152fcd51.PNG)
 
 # 흐름
-![flow](https://user-images.githubusercontent.com/110376717/218383508-2deaee9d-ee01-4c55-b09c-6a4436be1f1c.PNG)
+![flow](https://user-images.githubusercontent.com/110376717/218383973-a4ff8224-398f-48fe-9fde-89d87916d963.PNG)
 
 # ER다이어그램
 
