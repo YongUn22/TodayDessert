@@ -15,3 +15,11 @@ jpa를 사용한 게시판 형식의 사이트
 ![er](https://user-images.githubusercontent.com/110376717/218384118-40b73e16-386e-4fb6-b6df-c0337f045edd.PNG)
 
 # 결과
+![header](https://user-images.githubusercontent.com/110376717/218385124-ba912fb6-e1af-4919-afaa-839520b17cab.PNG)
+![main](https://user-images.githubusercontent.com/110376717/218385170-44cc0803-747b-4713-b959-d4c62be92357.PNG)
+![new](https://user-images.githubusercontent.com/110376717/218385184-f11a3f27-8077-4f75-92a8-77ebcce72552.PNG)
+![login](https://user-images.githubusercontent.com/110376717/218385201-7dde9b77-098b-48fe-b524-458bfacb5e5c.PNG)
+![item](https://user-images.githubusercontent.com/110376717/218385218-45998073-950f-4b21-9510-3b3df83c8c35.PNG)
+![buy](https://user-images.githubusercontent.com/110376717/218385282-034cd234-f7e0-42f5-951c-f3bf8a8f3269.PNG)
+![mytem](https://user-images.githubusercontent.com/110376717/218385383-1a1f8714-2059-4f72-9d16-0d9bc02facdf.PNG)
+![cate](https://user-images.githubusercontent.com/110376717/218385310-835a237c-d2cf-4492-87db-c16275e644ba.PNG)
